@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eureka-client-2
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    instance-id: client-2
+
+
+management:
+  security:
+    enabled: false
+server:
+  port: 0
